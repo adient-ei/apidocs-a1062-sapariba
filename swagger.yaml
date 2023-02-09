@@ -84,7 +84,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorInternal'
-  /jobs/{jobId}:
+  /procurement-reporting-jobresult/jobs/{jobId}:
     get:
       tags:
       - Job Status
@@ -136,7 +136,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorInternal'
-  /jobs/{jobId}/files/{fileId}:
+  /procurement-reporting-jobresult/jobs/{jobId}/files/{fileId}:
     get:
       tags:
       - File Download
