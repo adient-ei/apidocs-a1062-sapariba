@@ -30,7 +30,7 @@ paths:
   /procurement-reporting-job/jobs:
     post:
       tags:
-      - Job Submission
+      - Procurement Reporting
       summary: Submit job Request
       description: Submit a job for a view template to retrieve data for a particular
         transaction document type.
@@ -87,7 +87,7 @@ paths:
   /procurement-reporting-jobresult/jobs/{jobId}:
     get:
       tags:
-      - Job Status
+      - Procurement Reporting
       summary: Returns the status of the specified asynchronous operational reporting
         job
       description: 'Query the status of a submitted asynchronous operational reporting
@@ -139,7 +139,7 @@ paths:
   /procurement-reporting-jobresult/jobs/{jobId}/files/{fileId}:
     get:
       tags:
-      - File Download
+      - Procurement Reporting
       summary: Requests file one at a time for completed job by specifying {fileId}
       description: This API is going to download the resulted data file. File is in
         zip format
